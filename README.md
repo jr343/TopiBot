@@ -45,7 +45,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from LaylaRobot.sample_config import Config
+from TopiBot.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # your telegram ID
