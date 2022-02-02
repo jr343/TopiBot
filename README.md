@@ -1,4 +1,4 @@
-[![Deploy](https://telegra.ph/file/aaa10262ebe6670eecf58.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/LaylaRobot.git)
+[![Deploy](https://te.legra.ph/file/0a1d1cb994d4902820adf.jpg)](https://heroku.com/deploy?template=https://github.com/jr343/TopiBot.git)
 # Layla Robot
 ### Click Below Image to Deploy
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
@@ -19,7 +19,7 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FQueenArzoo%2FLaylaRobot&template=https%3A%2F%2Fgithub.com%2FQueenArzoo%2FLaylaRobot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fjr343%2FTopiBot&template=https%3A%2F%2Fgithub.com%2Fjr343%2FTopiBot)
 
 
 
@@ -159,7 +159,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from LaylaRobot import dispatcher`.
+`from TopiBot import dispatcher`.
 
 You can then add commands using the usual
 
@@ -179,13 +179,13 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-`python3 -m LaylaRobot`
+`python3 -m TopiBot`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/HEROGAMERS1)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/chaudhary_Anjana)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  
@@ -195,4 +195,4 @@ The bot is based on the original work done by [PaulSonOfLars](https://github.com
 
 
 
-## [OWNER HERO](http://t.me/HEROGAMERS1)
+## [OWNER](http://t.me/chaudhary_Ajnana)
