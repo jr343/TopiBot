@@ -87,7 +87,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="TopiBot_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{godzilla_network_support}"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{the_godzilla_network_support}"
         ),
     ],
     [
