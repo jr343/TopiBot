@@ -1,15 +1,15 @@
 {
-      "name": "Layla Robot",
+      "name": "TopiBot",
       "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
+      "logo": "https://te.legra.ph/file/0a1d1cb994d4902820adf.jpg",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Layla"
+         "TopiBot"
       ],   
-   "repository": "https://github.com/QueenArzoo/LaylaRobot.git",
+   "repository": "https://github.com/jr343/TopiBot.git",
    "addons": [
       {
          "options": {
