@@ -1,2 +1,2 @@
-worker: python3 -m LaylaRobot
+worker: python3 -m TopiBot
 ps:scale worker=1
