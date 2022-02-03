@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/LaylaRobot
-RUN git clone -b shiken https://github.com/QueenArzoo/LaylaRobot /root/LaylaRobot
-WORKDIR /root/LaylaRobot
+# Copy Python Requirements to /root/TopiBot
+RUN git clone -b shiken https://github.com/jr343/TopiBot /root/TopiBot
+WORKDIR /root/TopiBot
 
-#Copy config file to /root/LaylaRobot/LaylaRobot
-COPY ./LaylaRobot/sample_config.py ./LaylaRobot/config.py* /root/LaylaRobot/LaylaRobot/
+#Copy config file to /root/TopiBot/TopiBot
+COPY ./TopiBot/sample_config.py ./TopiBot/config.py* /root/TopiBot/TopiBot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","LaylaRobot"]
+CMD ["python3","-m","TopiBot"]
